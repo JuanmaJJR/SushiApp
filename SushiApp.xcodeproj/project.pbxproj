@@ -16,7 +16,7 @@
 		EFEBEAB41ECAE0030051B243 /* SushiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAB31ECAE0030051B243 /* SushiAppTests.swift */; };
 		EFEBEABF1ECAE0030051B243 /* SushiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEABE1ECAE0030051B243 /* SushiAppUITests.swift */; };
 		EFEBEACD1ECAE59D0051B243 /* VCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEACC1ECAE59D0051B243 /* VCPrincipal.swift */; };
-		EFEBEACF1ECAE60B0051B243 /* TVCMiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEACE1ECAE60B0051B243 /* TVCMiCelda.swift */; };
+		EFEBEAD11ECB015D0051B243 /* TVCMiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAD01ECB015D0051B243 /* TVCMiCelda.swift */; };
 		F2EC97223B6DB7B78DC9D8ED /* Pods_SushiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B9CDD1A73D23C71AC7F847 /* Pods_SushiApp.framework */; };
 		F4BDE273ADF785CC3EBECAD0 /* Pods_SushiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890608D6D7519B7FEDA9CC82 /* Pods_SushiAppTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,7 +61,7 @@
 		EFEBEABE1ECAE0030051B243 /* SushiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiAppUITests.swift; sourceTree = "<group>"; };
 		EFEBEAC01ECAE0030051B243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFEBEACC1ECAE59D0051B243 /* VCPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPrincipal.swift; sourceTree = "<group>"; };
-		EFEBEACE1ECAE60B0051B243 /* TVCMiCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCMiCelda.swift; sourceTree = "<group>"; };
+		EFEBEAD01ECB015D0051B243 /* TVCMiCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCMiCelda.swift; sourceTree = "<group>"; };
 		FBD84A3A7624EE429DB6538C /* Pods-SushiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SushiAppUITests/Pods-SushiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +148,7 @@
 				EFEBEAA71ECAE0030051B243 /* LaunchScreen.storyboard */,
 				EFEBEAAA1ECAE0030051B243 /* Info.plist */,
 				EFEBEACC1ECAE59D0051B243 /* VCPrincipal.swift */,
-				EFEBEACE1ECAE60B0051B243 /* TVCMiCelda.swift */,
+				EFEBEAD01ECB015D0051B243 /* TVCMiCelda.swift */,
 			);
 			path = SushiApp;
 			sourceTree = "<group>";
@@ -458,7 +458,7 @@
 				EFEBEAA11ECAE0020051B243 /* ViewController.swift in Sources */,
 				EFEBEACD1ECAE59D0051B243 /* VCPrincipal.swift in Sources */,
 				EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */,
-				EFEBEACF1ECAE60B0051B243 /* TVCMiCelda.swift in Sources */,
+				EFEBEAD11ECB015D0051B243 /* TVCMiCelda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
