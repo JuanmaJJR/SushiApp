@@ -21,7 +21,7 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 8
+        return 6
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:TVCMiCelda = tableView.dequeueReusableCell(withIdentifier: "micelda1") as! TVCMiCelda
@@ -49,14 +49,6 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
         }
         if(indexPath.row==5){
             cell.btnNombre?.setTitle("Inari", for: UIControlState.normal)
-            //cell.imagn?.image=UIImage(named:"scala-logo.png")
-        }
-        if(indexPath.row==6){
-            cell.btnNombre?.setTitle("Oshi", for: UIControlState.normal)
-            //cell.imagn?.image=UIImage(named:"scala-logo.png")
-        }
-        if(indexPath.row==7){
-            cell.btnNombre?.setTitle("Chirasi", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         return cell
