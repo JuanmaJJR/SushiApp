@@ -201,7 +201,7 @@ Sal</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-CL-KX5">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-CL-KX5">
                                         <rect key="frame" x="63" y="1574" width="288" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -477,21 +477,25 @@ Sal</string>
                                 <rect key="frame" x="0.0" y="28" width="375" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cxI-hu-Bq7">
-                                <rect key="frame" x="9" y="134" width="357" height="148"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="etd-rd-JWs">
+                                <rect key="frame" x="9" y="138" width="357" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Llamado también como "sushi acorazado", es un sushi ovalado y amasado (similar al nigiri) es enrollado con una tira de nori, para formar un cuenco que se rellena con algún ingrediente, por ejemplo: huevas, pescado crudo troceado o desmigado, o vegetales.</string>
+                                <string key="text">El Inari-zushi consiste en sobrectiso de tofu frito conocidos como "Abura age" rellenos de Sushimeshii. Si bien visutalmente no suele ser muy atractivo, como sucede con los maki-zushi, al paladar resulta una experiencia diferente y atractiva. Una alternativa de Sushi que sorprenderá y gustará al comensal de turno.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-I3-ywp">
+                                <rect key="frame" x="43" y="386" width="289" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gri-PJ-0Ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3556" y="947"/>
+            <point key="canvasLocation" x="3556" y="946.77661169415296"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uLb-rf-KhO">
