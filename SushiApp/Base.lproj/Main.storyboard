@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PUo-bJ-8l2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="egD-V3-Qdb">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -139,7 +139,7 @@ Sal</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zfc-0T-OMo">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfc-0T-OMo">
                                         <rect key="frame" x="61" y="406" width="290" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -239,7 +239,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v8h-9T-nqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2953" y="-3306"/>
+            <point key="canvasLocation" x="5462" y="-6068"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wzu-aL-rkq">
@@ -278,6 +278,9 @@ Sal</string>
                                 <rect key="frame" x="305" y="610" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="PUo-bJ-8l2" kind="show" id="xG0-5G-fua"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -285,7 +288,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nom-Il-Qhm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2264.8000000000002" y="-1809.4452773613195"/>
+            <point key="canvasLocation" x="2265" y="-1865"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qt8-EM-ZHD">
@@ -320,6 +323,9 @@ Sal</string>
                                 <rect key="frame" x="313" y="617" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="Q7J-tX-qeH" kind="show" id="AGj-fV-7fi"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mOA-Ps-oAB">
                                 <rect key="frame" x="34" y="347" width="289" height="184"/>
@@ -331,7 +337,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyH-sZ-3WQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2952.8000000000002" y="-1465.8170914542729"/>
+            <point key="canvasLocation" x="2953" y="-1469"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="V4K-2r-oEz">
@@ -370,6 +376,9 @@ Sal</string>
                                 <rect key="frame" x="297" y="615" width="62" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="8jY-U5-Cpp" kind="show" id="zyw-We-3Js"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -377,7 +386,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqD-JN-c9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3580" y="-860.41979010494754"/>
+            <point key="canvasLocation" x="3556" y="-810"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="V0t-oN-lv4">
@@ -396,7 +405,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3kn-Qi-fhE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="618" y="412"/>
+            <point key="canvasLocation" x="105" y="606"/>
         </scene>
         <!--Principal-->
         <scene sceneID="RhM-F1-8nr">
@@ -418,21 +427,15 @@ Sal</string>
                                         <rect key="frame" x="0.0" y="28" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jKL-0b-l8w" id="bmX-Jy-Hof">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1SS-FP-dDg">
-                                                    <rect key="frame" x="8" y="4" width="359" height="63"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4AT-is-DUI">
+                                                    <rect key="frame" x="0.0" y="-22" width="375" height="114"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="TEST">
-                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                </button>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="btnNombre" destination="1SS-FP-dDg" id="mct-RG-0Yj"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -459,7 +462,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T71-UZ-xea" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1336.8" y="411.544227886057"/>
+            <point key="canvasLocation" x="1424.8" y="-116.49175412293854"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NnZ-5G-20b">
@@ -489,13 +492,26 @@ Sal</string>
                                 <rect key="frame" x="43" y="386" width="289" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyz-Lq-i9f">
+                                <rect key="frame" x="16" y="635" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Volver"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCj-6q-5hw">
+                                <rect key="frame" x="297" y="635" width="62" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="dof-g7-wsR" kind="show" id="FNx-aG-baT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gri-PJ-0Ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3556" y="946.77661169415296"/>
+            <point key="canvasLocation" x="2265" y="1272"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uLb-rf-KhO">
@@ -509,10 +525,6 @@ Sal</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ywG-2P-uAx">
-                                <rect key="frame" x="0.0" y="28" width="375" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="01R-3l-4cg">
                                 <rect key="frame" x="1" y="141" width="357" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -534,50 +546,21 @@ Sal</string>
                                 <rect key="frame" x="296" y="614" width="62" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="IXf-8t-MhQ" kind="show" id="1DD-6M-gTH"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ywG-2P-uAx">
+                                <rect key="frame" x="16" y="20" width="375" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kqB-vr-sr2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4190" y="412"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="dtZ-t2-Pke">
-            <objects>
-                <viewController id="tTE-AK-Rq0" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jo2-hq-AQn"/>
-                        <viewControllerLayoutGuide type="bottom" id="42B-Aq-DR1"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cyO-qk-l3H">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TYC-qd-ql4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2953" y="1397"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="TaJ-0Z-41a">
-            <objects>
-                <viewController id="MP9-Xv-rtb" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cgf-9l-aNC"/>
-                        <viewControllerLayoutGuide type="bottom" id="pUB-N0-iNc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0ZT-W1-tEY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tVj-iP-Rs6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2265" y="1856"/>
+            <point key="canvasLocation" x="2953" y="644"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uJs-Qe-MbP">
@@ -612,6 +595,9 @@ Sal</string>
                                 <rect key="frame" x="297" y="637" width="62" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Receta"/>
+                                <connections>
+                                    <segue destination="00I-4w-7Dz" kind="show" id="PsI-Q2-j6T"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ux-ZQ-eJH">
                                 <rect key="frame" x="35" y="371" width="289" height="184"/>
@@ -623,7 +609,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="71q-Af-LVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4191" y="-243"/>
+            <point key="canvasLocation" x="3556" y="-11"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="bVZ-ER-hUt">
@@ -638,7 +624,7 @@ Sal</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-KR-MOu">
-                                <rect key="frame" x="16" y="28" width="343" height="128"/>
+                                <rect key="frame" x="16" y="76" width="343" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -648,7 +634,7 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qa6-oV-Y5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616.79999999999995" y="-243.32833583208398"/>
+            <point key="canvasLocation" x="105" y="-810"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rEj-Fq-uON">
@@ -666,7 +652,7 @@ Sal</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEO-az-v4P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-334" y="84"/>
+            <point key="canvasLocation" x="-1142" y="14"/>
         </scene>
         <!--UramakiRe-->
         <scene sceneID="9tm-vW-4WM">
@@ -848,7 +834,7 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6nc-xD-yKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3674" y="-3487"/>
+            <point key="canvasLocation" x="6278" y="-4405"/>
         </scene>
         <!--TemakiRe-->
         <scene sceneID="lPx-jx-uaY">
@@ -1030,7 +1016,7 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cr8-I8-eIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4366" y="-3488"/>
+            <point key="canvasLocation" x="6998" y="-2904"/>
         </scene>
         <!--NigiriRe-->
         <scene sceneID="dfs-xq-I6K">
@@ -1197,7 +1183,7 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PF6-pd-6WX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5050" y="-3601"/>
+            <point key="canvasLocation" x="6998" y="-1433"/>
         </scene>
         <!--GunkanRe-->
         <scene sceneID="6I8-Bq-U9C">
@@ -1351,7 +1337,7 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hep-uO-jWP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5714" y="-3534"/>
+            <point key="canvasLocation" x="6278" y="14"/>
         </scene>
         <!--InariRe-->
         <scene sceneID="hdG-h0-2U8">
@@ -1505,7 +1491,7 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wyu-5r-C9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6446" y="-3489"/>
+            <point key="canvasLocation" x="5462" y="1534"/>
         </scene>
     </scenes>
     <resources>

@@ -33,8 +33,10 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
         }
         if(indexPath.row==1){
             cell.btnNombre?.setTitle("Uramaki", for: UIControlState.normal)
+        
            // cell.imagn?.image=UIImage(named:"Image-1.png")
         }
+        
         if(indexPath.row==2){
             cell.btnNombre?.setTitle("Temaki", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"descarga.png")
@@ -52,6 +54,10 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        <#code#>
     }
     
     
