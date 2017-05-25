@@ -9,18 +9,18 @@
 import UIKit
 
 class TVCMiCelda: UITableViewCell {
-    @IBOutlet var lblNombre:UIButton?
-    @IBOutlet var imagn:UIImageView?
+
+    @IBOutlet var btnNombre:UIButton?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-    
+
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        
+
         // Configure the view for the selected state
     }
-    
+
 }

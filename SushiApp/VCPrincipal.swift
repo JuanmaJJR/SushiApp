@@ -9,7 +9,7 @@
 import UIKit
 
 class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
-    @IBOutlet var tbMiTable:UITableView?
+    @IBOutlet var TbMitb:UITableView?
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,35 +27,36 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
         let cell:TVCMiCelda = tableView.dequeueReusableCell(withIdentifier: "micelda1") as! TVCMiCelda
         //cell.lblNombre?.text=""
         if(indexPath.row==0){
-            cell.lblNombre?.setTitle("Maki", for: UIControlState.normal)
+            cell.btnNombre!.setTitle("Maki", for: .normal)
+            cell.btnNombre!.setImage(#imageLiteral(resourceName: "maki"), for: .normal)
             //cell.imagn?.image=UIImage(named:"Image.png")
         }
         if(indexPath.row==1){
-            cell.lblNombre?.setTitle("Uramaki", for: UIControlState.normal)
+            cell.btnNombre?.setTitle("Uramaki", for: UIControlState.normal)
            // cell.imagn?.image=UIImage(named:"Image-1.png")
         }
         if(indexPath.row==2){
-            cell.lblNombre?.setTitle("Temaki", for: UIControlState.normal)
+            cell.btnNombre?.setTitle("Temaki", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"descarga.png")
         }
         if(indexPath.row==3){
-            cell.lblNombre?.setTitle("Nigiri", for: UIControlState.normal)
+            cell.btnNombre?.setTitle("Nigiri", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"c.png")
         }
         if(indexPath.row==4){
-            cell.lblNombre?.setTitle("Gunkan", for: UIControlState.normal)
+            cell.btnNombre?.setTitle("Gunkan", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         if(indexPath.row==5){
-            cell.lblNombre?.setTitle("Inari", for: UIControlState.normal)
+            cell.btnNombre?.setTitle("Inari", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         if(indexPath.row==6){
-            cell.lblNombre?.setTitle("Oshi", for: UIControlState.normal)
+            cell.btnNombre?.setTitle("Oshi", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         if(indexPath.row==7){
-            cell.lblNombre?.setTitle("Chirasi", for: UIControlState.normal)
+            cell.btnNombre?.setTitle("Chirasi", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         return cell
