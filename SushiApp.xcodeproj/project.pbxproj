@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BAA50017DD2B4C5E189BD6DA /* Pods_SushiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44263D89A21DC8319FCC3101 /* Pods_SushiAppUITests.framework */; };
+		EF675B4A1EF2771F003E1A1E /* Re1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B491EF2771F003E1A1E /* Re1.swift */; };
 		EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */; };
 		EFEBEAA11ECAE0020051B243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAA01ECAE0020051B243 /* ViewController.swift */; };
 		EFEBEAA41ECAE0030051B243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBEAA21ECAE0030051B243 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		890608D6D7519B7FEDA9CC82 /* Pods_SushiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SushiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9452E0AF4C702DC037D3761E /* Pods-SushiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SushiAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SushiAppTests/Pods-SushiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4B9CDD1A73D23C71AC7F847 /* Pods_SushiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SushiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF675B491EF2771F003E1A1E /* Re1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Re1.swift; sourceTree = "<group>"; };
 		EFEBEA9B1ECAE0020051B243 /* SushiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFEBEAA01ECAE0020051B243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				EFEBEAAA1ECAE0030051B243 /* Info.plist */,
 				EFEBEACC1ECAE59D0051B243 /* VCPrincipal.swift */,
 				EFEBEAD01ECB015D0051B243 /* TVCMiCelda.swift */,
+				EF675B491EF2771F003E1A1E /* Re1.swift */,
 			);
 			path = SushiApp;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				EFEBEACD1ECAE59D0051B243 /* VCPrincipal.swift in Sources */,
 				EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */,
 				EFEBEAD11ECB015D0051B243 /* TVCMiCelda.swift in Sources */,
+				EF675B4A1EF2771F003E1A1E /* Re1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
