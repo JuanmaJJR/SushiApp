@@ -297,7 +297,7 @@ Sal</string>
                         <viewControllerLayoutGuide type="bottom" id="GuN-Gf-BBz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Iw3-qh-2Kq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1650"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qAo-87-wHt">
@@ -348,7 +348,7 @@ Sal</string>
                         <viewControllerLayoutGuide type="bottom" id="8Gg-bR-vSk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="08C-u4-hlR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1650"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F0V-zn-ekJ">
@@ -389,25 +389,6 @@ Sal</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqD-JN-c9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3556" y="-810"/>
-        </scene>
-        <!--Item 2-->
-        <scene sceneID="V0t-oN-lv4">
-            <objects>
-                <viewController id="i3K-Ni-V7p" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1Y5-Zg-Xe8"/>
-                        <viewControllerLayoutGuide type="bottom" id="j4k-8M-mrY"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0OU-7H-lxm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="YGH-9k-vMA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3kn-Qi-fhE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="105" y="606"/>
         </scene>
         <!--Principal-->
         <scene sceneID="RhM-F1-8nr">
@@ -481,7 +462,7 @@ Sal</string>
                         <viewControllerLayoutGuide type="bottom" id="Wt1-aZ-2Zf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YAC-z2-owg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1650"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLY-S0-H9J">
@@ -583,7 +564,7 @@ Sal</string>
                         <viewControllerLayoutGuide type="bottom" id="7c8-5F-xLU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5BD-H4-rnP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3t-EJ-1Im">
@@ -624,49 +605,6 @@ Sal</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="71q-Af-LVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3556" y="-11"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="bVZ-ER-hUt">
-            <objects>
-                <viewController id="hOv-Gy-aMw" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cal-hW-NHc"/>
-                        <viewControllerLayoutGuide type="bottom" id="qvF-5X-vsl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="B1J-TL-okC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-KR-MOu">
-                                <rect key="frame" x="16" y="76" width="343" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="qrj-Rs-rPc"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qa6-oV-Y5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="105" y="-810"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="rEj-Fq-uON">
-            <objects>
-                <tabBarController id="aPs-Yl-gAL" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="KaE-sc-w57">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="hOv-Gy-aMw" kind="relationship" relationship="viewControllers" id="xLs-9l-7Mx"/>
-                        <segue destination="i3K-Ni-V7p" kind="relationship" relationship="viewControllers" id="QYT-MH-VIj"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WEO-az-v4P" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1142" y="14"/>
         </scene>
         <!--UramakiRe-->
         <scene sceneID="9tm-vW-4WM">
@@ -864,6 +802,13 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                 <rect key="frame" x="0.0" y="108" width="375" height="1534"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-wq-s6h">
+                                        <rect key="frame" x="95" y="0.0" width="184" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sZr-Vv-NkV">
                                         <rect key="frame" x="16" y="65" width="359" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -878,13 +823,6 @@ Plástico film</string>
                                         <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fce-MY-eOq">
-                                        <rect key="frame" x="8" y="322" width="168" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paso 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcb-Dn-X7N">
                                         <rect key="frame" x="26" y="355" width="68" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1001,10 +939,10 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-wq-s6h">
-                                        <rect key="frame" x="95" y="0.0" width="184" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fce-MY-eOq">
+                                        <rect key="frame" x="129" y="320" width="168" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1057,13 +995,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bps-Yl-X3G">
-                                        <rect key="frame" x="8" y="138" width="168" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paso 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icp-uB-YJG">
                                         <rect key="frame" x="8" y="186" width="68" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1141,6 +1072,12 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Finalmente, humedecemos el cuchillo para cortar el uramaki en ocho partes iguales y lo colocamos en nuestras cajas especiales." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0o9-Ky-dOe">
+                                        <rect key="frame" x="59" y="1174" width="288" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4s-36-aaq">
                                         <rect key="frame" x="164" y="1904" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1167,12 +1104,13 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Finalmente, humedecemos el cuchillo para cortar el uramaki en ocho partes iguales y lo colocamos en nuestras cajas especiales." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0o9-Ky-dOe">
-                                        <rect key="frame" x="59" y="1174" width="288" height="67"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bps-Yl-X3G">
+                                        <rect key="frame" x="136" y="138" width="168" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OE6-tB-i9M">
@@ -1499,17 +1437,188 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
             </objects>
             <point key="canvasLocation" x="5461.6000000000004" y="1533.7331334332835"/>
         </scene>
+        <!--Login-->
+        <scene sceneID="OPe-3B-7xF">
+            <objects>
+                <viewController id="of1-Lh-eIs" customClass="login" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uB8-US-cxs"/>
+                        <viewControllerLayoutGuide type="bottom" id="AuX-4n-cle"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nkH-Ze-fKl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E34-57-eZE">
+                                <rect key="frame" x="103" y="280" width="168" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="of1-Lh-eIs" id="Qx3-dq-WEf"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQU-TI-TYE">
+                                <rect key="frame" x="63" y="606" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="LoginButton" destination="of1-Lh-eIs" eventType="touchUpInside" id="Rbb-1z-M4d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfx-sF-3la">
+                                <rect key="frame" x="259" y="606" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Registrar"/>
+                                <connections>
+                                    <segue destination="xFL-T5-9fi" kind="show" id="KHI-pM-GAd"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T29-DP-F8h">
+                                <rect key="frame" x="103" y="437" width="168" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="of1-Lh-eIs" id="PAe-Wk-hFJ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mensaje de Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJe-uC-pZd">
+                                <rect key="frame" x="16" y="210" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblError" destination="hJe-uC-pZd" id="6Kq-ib-OQW"/>
+                        <outlet property="nameTextField" destination="E34-57-eZE" id="YCS-Ky-HFb"/>
+                        <outlet property="passTextField" destination="T29-DP-F8h" id="JS1-hd-Edv"/>
+                        <segue destination="6c6-Sf-cTA" kind="show" identifier="tran1" id="F0S-cw-DXY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yq2-OB-RB7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439" y="-116"/>
+        </scene>
+        <!--Registro View Controller-->
+        <scene sceneID="9D8-uu-b3s">
+            <objects>
+                <viewController id="xFL-T5-9fi" customClass="VCRegistroViewController" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GEB-me-Oes"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Rj-O9-LYr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aXc-bo-tJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pf2-tN-O58">
+                                <rect key="frame" x="100" y="241" width="175" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZFC-DW-lg2">
+                                <rect key="frame" x="100" y="318" width="175" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iuC-VV-FJK">
+                                <rect key="frame" x="100" y="406" width="175" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L87-db-IbW">
+                                <rect key="frame" x="277" y="609" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancelar"/>
+                                <connections>
+                                    <segue destination="of1-Lh-eIs" kind="show" id="fxc-f5-jBd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hs2-vo-PFe">
+                                <rect key="frame" x="16" y="609" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Aceptar"/>
+                                <connections>
+                                    <action selector="btnSingUp:" destination="xFL-T5-9fi" eventType="touchUpInside" id="Apr-p1-EzK"/>
+                                    <segue destination="of1-Lh-eIs" kind="show" id="46a-D3-SEP"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uaJ-GQ-BVD">
+                                <rect key="frame" x="100" y="493" width="175" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="mail" destination="uaJ-GQ-BVD" id="r2u-jw-91S"/>
+                        <outlet property="psswd" destination="ZFC-DW-lg2" id="Jyc-51-638"/>
+                        <outlet property="psswd2" destination="iuC-VV-FJK" id="Kph-lP-1Vp"/>
+                        <outlet property="psw" destination="ZFC-DW-lg2" id="QH2-z1-9vX"/>
+                        <outlet property="uss" destination="Pf2-tN-O58" id="SvZ-c0-f3f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgZ-7q-bos" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="438" y="-770"/>
+        </scene>
+        <!--Item 3-->
+        <scene sceneID="ftG-K2-XL4">
+            <objects>
+                <viewController id="km6-YA-GjB" customClass="VCMapa" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vLy-cF-Rwx"/>
+                        <viewControllerLayoutGuide type="bottom" id="kTn-J3-Zkf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mUd-JL-v1T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5wu-ek-Pq1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 3" id="m5d-Et-5t2"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="miMapa" destination="5wu-ek-Pq1" id="gHd-fN-IvC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aaB-qP-b0R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1425" y="790"/>
+        </scene>
     </scenes>
     <resources>
         <image name="maki2" width="550" height="367"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MB5-AG-Wf1"/>
-        <segue reference="loW-79-e5c"/>
+        <segue reference="jyn-2g-xBN"/>
+        <segue reference="F0S-cw-DXY"/>
+        <segue reference="fxc-f5-jBd"/>
+        <segue reference="64X-yS-AnA"/>
+        <segue reference="x3Z-8D-aol"/>
+        <segue reference="GaC-Ys-rTw"/>
+        <segue reference="axP-e5-u6l"/>
         <segue reference="g2g-5K-sIG"/>
-        <segue reference="qav-6P-7cy"/>
-        <segue reference="2Yg-ci-ZmN"/>
-        <segue reference="B6p-CX-RyC"/>
-        <segue reference="wn0-MD-rnG"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -21,6 +21,13 @@
 		EF675B661EF29636003E1A1E /* In4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B651EF29636003E1A1E /* In4.swift */; };
 		EF675B681EF29644003E1A1E /* In5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B671EF29644003E1A1E /* In5.swift */; };
 		EF675B6A1EF29657003E1A1E /* In6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B691EF29657003E1A1E /* In6.swift */; };
+		EF675B6C1EF29D01003E1A1E /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B6B1EF29D01003E1A1E /* login.swift */; };
+		EF675B6E1EF29DFC003E1A1E /* VCRegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B6D1EF29DFC003E1A1E /* VCRegistroViewController.swift */; };
+		EF675B701EF29EAC003E1A1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF675B6F1EF29EAC003E1A1E /* GoogleService-Info.plist */; };
+		EF675B721EF2A716003E1A1E /* VCMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B711EF2A716003E1A1E /* VCMapa.swift */; };
+		EF675B741EF2A73E003E1A1E /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B731EF2A73E003E1A1E /* DataHolder.swift */; };
+		EF675B761EF2A865003E1A1E /* restaurantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B751EF2A865003E1A1E /* restaurantes.swift */; };
+		EF675B781EF2B358003E1A1E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF675B771EF2B358003E1A1E /* MapKit.framework */; };
 		EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */; };
 		EFEBEAA11ECAE0020051B243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAA01ECAE0020051B243 /* ViewController.swift */; };
 		EFEBEAA41ECAE0030051B243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBEAA21ECAE0030051B243 /* Main.storyboard */; };
@@ -73,6 +80,13 @@
 		EF675B651EF29636003E1A1E /* In4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = In4.swift; sourceTree = "<group>"; };
 		EF675B671EF29644003E1A1E /* In5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = In5.swift; path = ../In5.swift; sourceTree = "<group>"; };
 		EF675B691EF29657003E1A1E /* In6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = In6.swift; sourceTree = "<group>"; };
+		EF675B6B1EF29D01003E1A1E /* login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		EF675B6D1EF29DFC003E1A1E /* VCRegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRegistroViewController.swift; sourceTree = "<group>"; };
+		EF675B6F1EF29EAC003E1A1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EF675B711EF2A716003E1A1E /* VCMapa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapa.swift; sourceTree = "<group>"; };
+		EF675B731EF2A73E003E1A1E /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
+		EF675B751EF2A865003E1A1E /* restaurantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restaurantes.swift; sourceTree = "<group>"; };
+		EF675B771EF2B358003E1A1E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EFEBEA9B1ECAE0020051B243 /* SushiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFEBEAA01ECAE0020051B243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF675B781EF2B358003E1A1E /* MapKit.framework in Frameworks */,
 				F2EC97223B6DB7B78DC9D8ED /* Pods_SushiApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +150,7 @@
 		BA40AEF280C787BC82F27B6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF675B771EF2B358003E1A1E /* MapKit.framework */,
 				B4B9CDD1A73D23C71AC7F847 /* Pods_SushiApp.framework */,
 				890608D6D7519B7FEDA9CC82 /* Pods_SushiAppTests.framework */,
 				44263D89A21DC8319FCC3101 /* Pods_SushiAppUITests.framework */,
@@ -167,6 +183,7 @@
 		EFEBEA9D1ECAE0020051B243 /* SushiApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF675B6F1EF29EAC003E1A1E /* GoogleService-Info.plist */,
 				EF675B5D1EF29266003E1A1E /* bb.jpg */,
 				EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */,
 				EFEBEAA01ECAE0020051B243 /* ViewController.swift */,
@@ -188,6 +205,11 @@
 				EF675B651EF29636003E1A1E /* In4.swift */,
 				EF675B671EF29644003E1A1E /* In5.swift */,
 				EF675B691EF29657003E1A1E /* In6.swift */,
+				EF675B6B1EF29D01003E1A1E /* login.swift */,
+				EF675B6D1EF29DFC003E1A1E /* VCRegistroViewController.swift */,
+				EF675B711EF2A716003E1A1E /* VCMapa.swift */,
+				EF675B731EF2A73E003E1A1E /* DataHolder.swift */,
+				EF675B751EF2A865003E1A1E /* restaurantes.swift */,
 			);
 			path = SushiApp;
 			sourceTree = "<group>";
@@ -289,6 +311,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 86CZ52Y2CQ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					EFEBEAAE1ECAE0030051B243 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -331,6 +358,7 @@
 			files = (
 				EFEBEAA91ECAE0030051B243 /* LaunchScreen.storyboard in Resources */,
 				EFEBEAA61ECAE0030051B243 /* Assets.xcassets in Resources */,
+				EF675B701EF29EAC003E1A1E /* GoogleService-Info.plist in Resources */,
 				EF675B5E1EF29266003E1A1E /* bb.jpg in Resources */,
 				EFEBEAA41ECAE0030051B243 /* Main.storyboard in Resources */,
 			);
@@ -503,11 +531,16 @@
 				EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */,
 				EF675B661EF29636003E1A1E /* In4.swift in Sources */,
 				EFEBEAD11ECB015D0051B243 /* TVCMiCelda.swift in Sources */,
+				EF675B6C1EF29D01003E1A1E /* login.swift in Sources */,
 				EF675B4A1EF2771F003E1A1E /* Re1.swift in Sources */,
 				EF675B4C1EF27BF9003E1A1E /* Re2.swift in Sources */,
+				EF675B761EF2A865003E1A1E /* restaurantes.swift in Sources */,
+				EF675B741EF2A73E003E1A1E /* DataHolder.swift in Sources */,
 				EF675B501EF27DFB003E1A1E /* Re4.swift in Sources */,
 				EF675B521EF27F39003E1A1E /* Re5.swift in Sources */,
+				EF675B721EF2A716003E1A1E /* VCMapa.swift in Sources */,
 				EF675B621EF2961E003E1A1E /* In2.swift in Sources */,
+				EF675B6E1EF29DFC003E1A1E /* VCRegistroViewController.swift in Sources */,
 				EF675B681EF29644003E1A1E /* In5.swift in Sources */,
 				EF675B601EF29610003E1A1E /* In1.swift in Sources */,
 				EF675B541EF28008003E1A1E /* Re6.swift in Sources */,
