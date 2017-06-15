@@ -30,33 +30,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEx-gX-OZC">
-                                        <rect key="frame" x="8" y="0.0" width="168" height="40"/>
+                                        <rect key="frame" x="91" y="0.0" width="180" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0fP-8v-UCB">
-                                        <rect key="frame" x="8" y="35" width="359" height="296"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Arroz para sushi (1 vaso)
-Agua (1 vaso)
-Salmón
-Pepino
-Aguacate
-Surimi de cangrejo
-Hojas algas nori
-Pasta wasabi
-Salsa de soja
-Vinagre de arroz
-Azúcar
-Sal</string>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGn-6h-wnS">
-                                        <rect key="frame" x="8" y="332" width="168" height="40"/>
+                                        <rect key="frame" x="148" y="330" width="168" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <nil key="textColor"/>
@@ -142,7 +123,6 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfc-0T-OMo">
                                         <rect key="frame" x="61" y="406" width="290" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Empezamos lavando bien el arroz hasta que suelte el almidón, al principio el agua será como blanquecida y tras 5 ó 6 lavados debe quedar transparente.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -150,7 +130,6 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XbM-AS-ueR">
                                         <rect key="frame" x="61" y="523" width="290" height="107"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Ponemos el arroz, una vez lavado, en una olla y le añadimos la misma cantidad de agua y un poco más. Tapamos y ponemos a fuego máximo durante dos minutos, después bajamos el fuego al mínimo y lo dejamos por 19 ó 20 minutos.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -158,7 +137,6 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pc5-W3-qEr">
                                         <rect key="frame" x="61" y="668" width="290" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Mientras cuece el arroz podemos ir cortando el pepino, el aguacate y el salmón. Colocar también los palitos de cangrejo para tenerlo todo a la mano para hacer los makis.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -166,14 +144,12 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Una vez haya transcurrido el tiempo, apartamos la olla y, sin destapar, la dejamos reposar por un espacio de 15 minutos." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Iht-eN-yy2">
                                         <rect key="frame" x="61" y="807" width="290" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xlz-TS-11m">
                                         <rect key="frame" x="62" y="925" width="288" height="133"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Pasado este tiempo, volcamos el arroz sobre una fuente y lo aliñamos con la mezcla de vinagre de arroz al que previamente le hemos añadido un poco de sal y un poco de azúcar y lo hemos mezclado bien. Lo removemos con un par de palillos y lo vamos enfriando.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -181,7 +157,6 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DLo-BU-FDd">
                                         <rect key="frame" x="63" y="1087" width="288" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Para hacer el rollo de maki, se coloca el alga nori que hemos cortado por la mitad en la misma dirección que tienen los surcos de la lámina, con el lado brillante para abajo sobre la rejilla para hacer el sushi</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -189,7 +164,6 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Yt-pB-viF">
                                         <rect key="frame" x="61" y="1238" width="288" height="184"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Cogemos un poco de arroz con las manos humedecidas para que no se pegue en las mismas, podemos poner un bol con agua y un poco de vinagre de arroz ya que vamos a tener que mojernos las manos constantemente. Con el arroz que hemos cogido hacemos una especie de croquetón y lo extendemos por el alga nori y con el dedo lo pintamos con pasta de wasabi por el medio.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -197,14 +171,12 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Le ponemos los ingredientes que queramos meter en el maki, sobre el canal que hemos hecho con el wasabi." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ubz-eR-g27">
                                         <rect key="frame" x="61" y="1464" width="288" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fea-CL-KX5">
                                         <rect key="frame" x="63" y="1574" width="288" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Ahora toca liarlo. Empezamos cogiendo desde atrás la rejilla con los dedos pulgares y con el resto de dedos sujetamos el relleno.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -212,14 +184,12 @@ Sal</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Lo enrollamos hasta obtener un rollo largo de sushi" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nhk-z3-gY7">
                                         <rect key="frame" x="66" y="1700" width="282" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Ahora solo queda cortarlos con un cuchillo afilado al que le mojamos la hoja con un poco de agua para que no se pegue. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cvb-E0-GDP">
                                         <rect key="frame" x="65" y="1797" width="282" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -227,7 +197,30 @@ Sal</string>
                                         <rect key="frame" x="164" y="1904" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Volver"/>
+                                        <connections>
+                                            <segue destination="egD-V3-Qdb" kind="show" id="g2g-5K-sIG"/>
+                                        </connections>
                                     </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0fP-8v-UCB">
+                                        <rect key="frame" x="16" y="48" width="359" height="302"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <string key="text">Arroz para sushi (1 vaso)
+Agua (1 vaso)
+Salmón
+Pepino
+Aguacate
+Surimi de cangrejo
+Hojas algas nori
+Pasta wasabi
+Salsa de soja
+Vinagre de arroz
+Azúcar
+Sal</string>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -242,18 +235,18 @@ Sal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v8h-9T-nqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5462" y="-6068"/>
+            <point key="canvasLocation" x="5461.6000000000004" y="-6068.365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--In1-->
         <scene sceneID="Wzu-aL-rkq">
             <objects>
-                <viewController storyboardIdentifier="makipri" id="egD-V3-Qdb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="makipri" id="egD-V3-Qdb" customClass="In1" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rAh-0N-eJM"/>
                         <viewControllerLayoutGuide type="bottom" id="AUw-ee-LNn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ydn-ET-Fgz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2050"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3BS-pF-UIq">
@@ -264,10 +257,9 @@ Sal</string>
                                 <rect key="frame" x="37" y="422" width="300" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vGZ-sM-8vp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vGZ-sM-8vp">
                                 <rect key="frame" x="8" y="118" width="359" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Maki Sushi significa rollo. Esta variedad de sushi se hace extendiendo el arroz sobre láminas de alga seca (nori), con pescado, verdura o fruta y enrollando el conjunto para luego cortar en ocho piezas. Uno de los tipos de maki es el Uramaki, sushi invertido. El arroz está en el exterior, el nori por dentro y el relleno está en el centro. Y por fuera, se le pueden añadir otros ingredientes como huevas, semillas de sésamo, etc… Las piezas de Maki Sushi se comen con palillos y de un solo bocado.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -296,16 +288,16 @@ Sal</string>
             </objects>
             <point key="canvasLocation" x="2265" y="-1865"/>
         </scene>
-        <!--View Controller-->
+        <!--In2-->
         <scene sceneID="qt8-EM-ZHD">
             <objects>
-                <viewController storyboardIdentifier="uramakise" id="4ag-bV-OHD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="uramakise" id="4ag-bV-OHD" customClass="In2" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0p3-Q4-aof"/>
                         <viewControllerLayoutGuide type="bottom" id="GuN-Gf-BBz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Iw3-qh-2Kq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qAo-87-wHt">
@@ -315,7 +307,6 @@ Sal</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8py-PO-fYd">
                                 <rect key="frame" x="8" y="144" width="359" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">El uramaki difiere de los otros sushi en que el arroz está en el exterior y el nori se encuentra adentro. El relleno está en el centro rodeado por una capa de nori, luego una capa de arroz, y aparte otros ingredientes como huevas o semillas tostadas de sésamo.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -348,16 +339,16 @@ Sal</string>
             </objects>
             <point key="canvasLocation" x="2953" y="-1469"/>
         </scene>
-        <!--View Controller-->
+        <!--In3-->
         <scene sceneID="V4K-2r-oEz">
             <objects>
-                <viewController id="WIw-Jl-OVZ" sceneMemberID="viewController">
+                <viewController id="WIw-Jl-OVZ" customClass="In3" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="evV-d3-SNQ"/>
                         <viewControllerLayoutGuide type="bottom" id="8Gg-bR-vSk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="08C-u4-hlR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F0V-zn-ekJ">
@@ -367,7 +358,6 @@ Sal</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fgt-6b-i11">
                                 <rect key="frame" x="8" y="135" width="359" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">“Te” en japonés significa “mano” y “maki” como vimos antes “arrollar”. Por lo tanto el temaki’s describe arrollados hecho a mano y es una especie de taco (el mexicano) pero al estilo japonés con forma cónica. Los ingredientes de preparación del temaki’s son similares a los del maki.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -439,7 +429,7 @@ Sal</string>
                                         <rect key="frame" x="0.0" y="28" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jKL-0b-l8w" id="bmX-Jy-Hof">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4AT-is-DUI">
@@ -482,16 +472,16 @@ Sal</string>
             </objects>
             <point key="canvasLocation" x="1424.8" y="-116.49175412293854"/>
         </scene>
-        <!--View Controller-->
+        <!--In6-->
         <scene sceneID="NnZ-5G-20b">
             <objects>
-                <viewController id="G49-gu-HfI" sceneMemberID="viewController">
+                <viewController id="G49-gu-HfI" customClass="In6" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6t0-s9-93B"/>
                         <viewControllerLayoutGuide type="bottom" id="Wt1-aZ-2Zf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YAC-z2-owg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1650"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLY-S0-H9J">
@@ -501,7 +491,6 @@ Sal</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="etd-rd-JWs">
                                 <rect key="frame" x="9" y="138" width="357" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">El Inari-zushi consiste en sobrectiso de tofu frito conocidos como "Abura age" rellenos de Sushimeshii. Si bien visutalmente no suele ser muy atractivo, como sucede con los maki-zushi, al paladar resulta una experiencia diferente y atractiva. Una alternativa de Sushi que sorprenderá y gustará al comensal de turno.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -534,10 +523,10 @@ Sal</string>
             </objects>
             <point key="canvasLocation" x="2265" y="1272"/>
         </scene>
-        <!--View Controller-->
+        <!--In5-->
         <scene sceneID="uLb-rf-KhO">
             <objects>
-                <viewController id="c0K-u1-eXH" sceneMemberID="viewController">
+                <viewController id="c0K-u1-eXH" customClass="In5" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Y8-4U-JLh"/>
                         <viewControllerLayoutGuide type="bottom" id="NEV-cN-RrN"/>
@@ -549,7 +538,6 @@ Sal</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="01R-3l-4cg">
                                 <rect key="frame" x="1" y="141" width="357" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Llamado también como "sushi acorazado", es un sushi ovalado y amasado (similar al nigiri) es enrollado con una tira de nori, para formar un cuenco que se rellena con algún ingrediente, por ejemplo: huevas, pescado crudo troceado o desmigado, o vegetales.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -586,16 +574,16 @@ Sal</string>
             </objects>
             <point key="canvasLocation" x="2953" y="644"/>
         </scene>
-        <!--View Controller-->
+        <!--In4-->
         <scene sceneID="uJs-Qe-MbP">
             <objects>
-                <viewController id="Vhp-mr-M0N" sceneMemberID="viewController">
+                <viewController id="Vhp-mr-M0N" customClass="In4" customModule="SushiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DTa-8O-uo5"/>
                         <viewControllerLayoutGuide type="bottom" id="7c8-5F-xLU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5BD-H4-rnP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3t-EJ-1Im">
@@ -605,7 +593,6 @@ Sal</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fPe-5o-mbD">
                                 <rect key="frame" x="0.0" y="149" width="359" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Nigiri Sushi es la variedad de sushi más popular y consumida en Japón. El arroz se moldea y prensa a mano hasta darle una forma cilíndrica. No debe quedar ni muy compacta ni muy suelta; lo justo para que no se rompa al cogerla pero sí se deshaga en la boca sin esfuerzo. A continuación se cubre con una delgada porción de pescado, salmón, atún, carabinero y anguila. </string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -698,16 +685,15 @@ Sal</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1L-gN-YO4">
-                                        <rect key="frame" x="8" y="0.0" width="168" height="40"/>
+                                        <rect key="frame" x="86" y="8" width="202" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9gm-qe-WTm">
                                         <rect key="frame" x="16" y="65" width="359" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Media lámina de alga nori
 Arroz para sushi
 1 lomo de salmón
@@ -716,16 +702,9 @@ Sésamo tostado (opcional)
 Agua
 Makisu
 Plástico film</string>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyc-OZ-ruh">
-                                        <rect key="frame" x="8" y="322" width="168" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paso 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRz-UY-elj">
                                         <rect key="frame" x="26" y="355" width="68" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -771,7 +750,6 @@ Plástico film</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5HG-eE-hAH">
                                         <rect key="frame" x="62" y="391" width="290" height="203"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Cortaremos el salmón en tiras de 1 cm de ancho, procurando hacer los cortes en sentido inverso a la dirección de la veta de grasa. Así quedará más estético y la proporción de grasa y pescado será más homogénea.
 Como el alga quedará en la parte interior del maki, en el caso del uramaki no es tan importante si la cara brillante del alga queda dentro o fuera del rollito, ya que no se verá.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -780,7 +758,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0ch-uy-oGo">
                                         <rect key="frame" x="62" y="621" width="290" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Trabajaremos el arroz dándole forma de bola para que sea más fácil de extender sobre el nori. Eso sí, para que no se pegue el arroz será necesario que nos mojemos ligeramente las yemas de los dedos.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -789,7 +766,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L8d-w0-MMl">
                                         <rect key="frame" x="64" y="774" width="290" height="68"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Espolvorearemos un poco de sésamo tostado sobre el arroz, para darle un toque de color y sabor.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -798,7 +774,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DYl-aB-scD">
                                         <rect key="frame" x="68" y="884" width="290" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Después voltearemos el nori con arroz sobre el makisu para que la cara cubierta de arroz quede en contacto con la esterilla y la otra cara del alga quede en la parte superior.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -807,7 +782,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="35B-7H-ocS">
                                         <rect key="frame" x="68" y="1204" width="288" height="136"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">A continuación enrollaremos la esterilla para hacer el uramaki, con el alga en la parte interior y el arroz con sésamo en la parte externa. Los sushimen de Sushifresh llevan años de experiencia, así que no esperes que te salga bien a la primera… ¡tiene su truco!
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -816,7 +790,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Finalmente, humedecemos el cuchillo para cortar el uramaki en ocho partes iguales y lo colocamos en nuestras cajas especiales." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zkq-da-cMH">
                                         <rect key="frame" x="68" y="1396" width="288" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -836,16 +809,25 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <rect key="frame" x="164" y="1482" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Volver"/>
+                                        <connections>
+                                            <segue destination="4ag-bV-OHD" kind="show" id="MB5-AG-Wf1"/>
+                                        </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fj0-mL-AvM">
                                         <rect key="frame" x="68" y="1046" width="288" height="102"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Allí será donde iremos colocando los ingredientes del relleno: dos láminas de aguacate y la tira de salmón, colocados en sentido longitudinal y en línea.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyc-OZ-ruh">
+                                        <rect key="frame" x="129" y="328" width="168" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kBP-gS-xRc">
@@ -882,17 +864,9 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                 <rect key="frame" x="0.0" y="108" width="375" height="1534"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-wq-s6h">
-                                        <rect key="frame" x="8" y="0.0" width="168" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sZr-Vv-NkV">
                                         <rect key="frame" x="16" y="65" width="359" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Media lámina de alga nori
 Arroz para sushi
 1 lomo de salmón
@@ -901,7 +875,7 @@ Sésamo tostado (opcional)
 Agua
 Makisu
 Plástico film</string>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fce-MY-eOq">
@@ -956,7 +930,6 @@ Plástico film</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jES-Lz-k55">
                                         <rect key="frame" x="62" y="391" width="290" height="203"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Cortaremos el salmón en tiras de 1 cm de ancho, procurando hacer los cortes en sentido inverso a la dirección de la veta de grasa. Así quedará más estético y la proporción de grasa y pescado será más homogénea.
 Como el alga quedará en la parte interior del maki, en el caso del uramaki no es tan importante si la cara brillante del alga queda dentro o fuera del rollito, ya que no se verá.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -965,7 +938,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VgO-rw-FTX">
                                         <rect key="frame" x="62" y="621" width="290" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Trabajaremos el arroz dándole forma de bola para que sea más fácil de extender sobre el nori. Eso sí, para que no se pegue el arroz será necesario que nos mojemos ligeramente las yemas de los dedos.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -974,7 +946,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UQY-Nt-nxn">
                                         <rect key="frame" x="64" y="774" width="290" height="68"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Espolvorearemos un poco de sésamo tostado sobre el arroz, para darle un toque de color y sabor.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -983,7 +954,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="my0-1r-1d8">
                                         <rect key="frame" x="68" y="884" width="290" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Después voltearemos el nori con arroz sobre el makisu para que la cara cubierta de arroz quede en contacto con la esterilla y la otra cara del alga quede en la parte superior.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -992,7 +962,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tEO-Tf-UHE">
                                         <rect key="frame" x="68" y="1204" width="288" height="136"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">A continuación enrollaremos la esterilla para hacer el uramaki, con el alga en la parte interior y el arroz con sésamo en la parte externa. Los sushimen de Sushifresh llevan años de experiencia, así que no esperes que te salga bien a la primera… ¡tiene su truco!
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1001,7 +970,6 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Finalmente, humedecemos el cuchillo para cortar el uramaki en ocho partes iguales y lo colocamos en nuestras cajas especiales." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Isv-DR-jDx">
                                         <rect key="frame" x="68" y="1396" width="288" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1021,16 +989,25 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <rect key="frame" x="164" y="1482" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Volver"/>
+                                        <connections>
+                                            <segue destination="WIw-Jl-OVZ" kind="show" id="wn0-MD-rnG"/>
+                                        </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cNr-2y-daI">
                                         <rect key="frame" x="68" y="1046" width="288" height="102"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Allí será donde iremos colocando los ingredientes del relleno: dos láminas de aguacate y la tira de salmón, colocados en sentido longitudinal y en línea.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-wq-s6h">
+                                        <rect key="frame" x="95" y="0.0" width="184" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3rd-LB-kdl">
@@ -1068,17 +1045,16 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqC-bh-9ZZ">
-                                        <rect key="frame" x="8" y="0.0" width="168" height="40"/>
+                                        <rect key="frame" x="93" y="1" width="188" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="1 lomo de salmón noruego fresco.            Arroz aliñado.                                                Alga Nori." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ahe-gG-EIt">
                                         <rect key="frame" x="16" y="49" width="351" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bps-Yl-X3G">
@@ -1131,49 +1107,37 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Cortamos el lomo de salmón en láminas finas. A la hora de cortar el lomo de salmón nos interesa que se vea bien el veteado. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e1O-Da-lBw">
-                                        <rect key="frame" x="8" y="234" width="290" height="70"/>
+                                        <rect key="frame" x="46" y="234" width="290" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qhn-Uc-cDI">
-                                        <rect key="frame" x="16" y="373" width="290" height="150"/>
+                                        <rect key="frame" x="46" y="373" width="290" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Preparamos las ‘croquetas’ de arroz. Ya sea a mano, o bien con los moldes que venden específicamente para ello. Si lo haces sin molde, humedece un poco tu mano y coge una pequeña porción de arroz. Se le va dando forma con cuidado, si aplastar los granos, hasta formar la ‘croqueta’. </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G1f-wT-OSV">
-                                        <rect key="frame" x="16" y="579" width="290" height="68"/>
+                                        <rect key="frame" x="46" y="579" width="290" height="68"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Por encima del arroz coloca las láminas de salmón. 
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Se puede terminar rodeando el nigiri con una tira final de alga Nori." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vDJ-6B-KM6">
-                                        <rect key="frame" x="16" y="703" width="277" height="50"/>
+                                        <rect key="frame" x="59" y="703" width="277" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1aA-IY-ks0">
-                                        <rect key="frame" x="16" y="982" width="288" height="136"/>
+                                        <rect key="frame" x="59" y="982" width="288" height="136"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">A continuación enrollaremos la esterilla para hacer el uramaki, con el alga en la parte interior y el arroz con sésamo en la parte externa. Los sushimen de Sushifresh llevan años de experiencia, así que no esperes que te salga bien a la primera… ¡tiene su truco!
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Finalmente, humedecemos el cuchillo para cortar el uramaki en ocho partes iguales y lo colocamos en nuestras cajas especiales." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0o9-Ky-dOe">
-                                        <rect key="frame" x="16" y="1174" width="288" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1186,11 +1150,13 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <rect key="frame" x="150" y="1249" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Volver"/>
+                                        <connections>
+                                            <segue destination="Vhp-mr-M0N" kind="show" id="qav-6P-7cy"/>
+                                        </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Puedes servir los nigiris acompañados de salsa de soja y un poquito de wasabi. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RRi-E2-5t5">
-                                        <rect key="frame" x="16" y="840" width="288" height="56"/>
+                                        <rect key="frame" x="59" y="840" width="288" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1201,6 +1167,12 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Finalmente, humedecemos el cuchillo para cortar el uramaki en ocho partes iguales y lo colocamos en nuestras cajas especiales." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0o9-Ky-dOe">
+                                        <rect key="frame" x="59" y="1174" width="288" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OE6-tB-i9M">
@@ -1238,22 +1210,21 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ov-cX-FZH">
-                                        <rect key="frame" x="8" y="0.0" width="168" height="40"/>
+                                        <rect key="frame" x="93" y="0.0" width="189" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U2c-rF-bNP">
                                         <rect key="frame" x="16" y="49" width="359" height="170"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">250 g de arroz de sushi ya cocido  3 hojas de alga nori  2 latas de atún  1 cebolleta  2 cucharadas de mayonesa.  Para acompañar salsa de soja, pasta de wasabi, etc.</string>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEe-be-H3Y">
-                                        <rect key="frame" x="16" y="262" width="168" height="40"/>
+                                        <rect key="frame" x="133" y="268" width="168" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <nil key="textColor"/>
@@ -1302,24 +1273,21 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Primero haz el condimento. Calienta el vinagre y disuelve la sal y el azúcar. Reserva." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ah9-rQ-dmA">
-                                        <rect key="frame" x="16" y="358" width="290" height="70"/>
+                                        <rect key="frame" x="50" y="358" width="290" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aqd-K2-dke">
-                                        <rect key="frame" x="24" y="497" width="290" height="117"/>
+                                        <rect key="frame" x="50" y="497" width="290" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Lava el arroz para sushi hasta que el agua salga clara. Después ponlo con el agua a remojo durante 10 minutos y ponlo a cocer. Cuando empiece a hervir déjalo otros 10 minutos tapado a fuego suave y por último déjalo otros 15 minutos sin destapar.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DzJ-zv-QRZ">
-                                        <rect key="frame" x="24" y="827" width="277" height="150"/>
+                                        <rect key="frame" x="50" y="827" width="277" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Una vez preparado el arroz, nos humedecemos las manos y cogemos pequeñas porciones y las apretamos con las manos. En un mano ponemos el arroz y con la otra apretamos con dos dedos dando forma alargada. Tened en cuenta que no sea muy grande ya que debe entrar de un bocado o dos como mucho.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1330,26 +1298,16 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <state key="normal" title="Volver"/>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WfF-ee-DYc">
-                                        <rect key="frame" x="24" y="1054" width="288" height="83"/>
+                                        <rect key="frame" x="50" y="1054" width="288" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Cortamos las láminas de nori en 5 o 6 tiras y con ellas envolvemos cada montón. Observaréis que queda un hueco por la parte de arriba.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ejr-xM-8aK">
-                                        <rect key="frame" x="24" y="671" width="290" height="100"/>
+                                        <rect key="frame" x="50" y="670" width="290" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Continuamos posteriormente incorporando el condimento mezclándolo bien y abanicando mientras mezclamos para enfriar el arroz cuanto antes. Y ya tendremos nuestro arroz preparado.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rBR-Nf-sgD">
-                                        <rect key="frame" x="24" y="1212" width="288" height="136"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Ahora pondremos el relleno que haremos mezclando el atún con la mayonesa y la cebolleta bien picada. A la mayonesa, si queréis podéis añadirle en lugar de sal, un poco de salsa de soja y vinagre de arroz en lugar de limón. Así tendremos una mayonesa japonesa.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1357,7 +1315,17 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                         <rect key="frame" x="164" y="1387" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Volver"/>
+                                        <connections>
+                                            <segue destination="c0K-u1-eXH" kind="show" id="2Yg-ci-ZmN"/>
+                                        </connections>
                                     </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rBR-Nf-sgD">
+                                        <rect key="frame" x="50" y="1212" width="288" height="136"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Ahora pondremos el relleno que haremos mezclando el atún con la mayonesa y la cebolleta bien picada. A la mayonesa, si queréis podéis añadirle en lugar de sal, un poco de salsa de soja y vinagre de arroz en lugar de limón. Así tendremos una mayonesa japonesa.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ag-bL-m7N">
@@ -1395,16 +1363,15 @@ Como el alga quedará en la parte interior del maki, en el caso del uramaki no e
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcK-zs-BKB">
-                                        <rect key="frame" x="8" y="0.0" width="168" height="40"/>
+                                        <rect key="frame" x="82" y="8" width="187" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OPB-kP-mch">
                                         <rect key="frame" x="16" y="49" width="359" height="192"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Abura age 8
 Salsa de soja 3 cdas.
 Azúcar 4 cdas.
@@ -1412,16 +1379,9 @@ Mirin 1cda.
 Agua 1,5 vaso
 Sushi meshi aprox.500 g
 Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJg-m5-tRE">
-                                        <rect key="frame" x="16" y="262" width="168" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paso 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8a-lI-9nl">
                                         <rect key="frame" x="16" y="310" width="68" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1467,7 +1427,6 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Jg-Po-4Bn">
                                         <rect key="frame" x="30" y="358" width="290" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Por lo general el abura age (tofu frito) para inari zushi viene en triángulos grandes. Así como lo sacamos de su envoltorio, le pasamos una cuantas veces el palo de amasar para facilitar la separación de sus caras. Luego, los cortamos por la mitad en partes iguales. Separamos las caras con las manos, o bien, introduciendo el cuchillo a través de la línea de corte para confeccionar los sobres de abura age . (un total de 16).</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1475,7 +1434,6 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Ej-Df-Mfk">
                                         <rect key="frame" x="29" y="603" width="290" height="184"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Ponemos a hervir en una olla suficiente cantidad de agua, y al romper hervor, incorporamos los sobrecitos de abura age y los hervimos durante 3 a 5 minutos para sacarle el excedente del aceite. Si no se dispone de tiempo, se puede poner los abura age en un colador y verterles agua caliente con la misma finalidad, aunque no es lo mismo que hervirlos. Finalmente, escurrimos bien.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1483,7 +1441,6 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9UP-Gx-Nhy">
                                         <rect key="frame" x="30" y="1061" width="277" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Una vez frío los sobres de abura age, los escurrimos ligeramente para rellenarlos con sushimeshi. Agarramos con la mano un sobre de abura age y con la otra mano introducimos el sushimeshi, cuidando que entre el sushimeshi desde la punta del triangulo, para que quede una linda forma triangular.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1491,14 +1448,12 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="El Sésamo blanco se puede mezclar en sushimeshi o ponerle en lo último en el triángulo del sushimeshi." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nZf-kB-Vgx">
                                         <rect key="frame" x="29" y="1267" width="266" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="toj-UR-WrX">
                                         <rect key="frame" x="30" y="843" width="290" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Una vez realizado esto, hervimos en fuego mínimo los sobrecitos de abura age en una olla con 1,5 vaso de agua, la salsa de soja, azúcar y mirin, así como se especifica en el punto "Ingredientes". La cocción proseguirá hasta que el líquido sea mínimo (Los sobrecitos no deben quedar secos, sino bien tiernos.) Dejamos enfriar.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1506,7 +1461,6 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Una vez terminado los Inari zushi, lo presentamos en platillos destinados a cada comensal (ver foto)." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7vb-ok-MGg">
                                         <rect key="frame" x="29" y="1390" width="288" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1514,7 +1468,17 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                         <rect key="frame" x="164" y="1488" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Volver"/>
+                                        <connections>
+                                            <segue destination="G49-gu-HfI" kind="show" id="loW-79-e5c"/>
+                                        </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJg-m5-tRE">
+                                        <rect key="frame" x="111" y="266" width="168" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oWx-Fp-JUg">
@@ -1533,13 +1497,19 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wyu-5r-C9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5462" y="1534"/>
+            <point key="canvasLocation" x="5461.6000000000004" y="1533.7331334332835"/>
         </scene>
     </scenes>
     <resources>
         <image name="maki2" width="550" height="367"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Q7y-ax-L0R"/>
+        <segue reference="MB5-AG-Wf1"/>
+        <segue reference="loW-79-e5c"/>
+        <segue reference="g2g-5K-sIG"/>
+        <segue reference="qav-6P-7cy"/>
+        <segue reference="2Yg-ci-ZmN"/>
+        <segue reference="B6p-CX-RyC"/>
+        <segue reference="wn0-MD-rnG"/>
     </inferredMetricsTieBreakers>
 </document>

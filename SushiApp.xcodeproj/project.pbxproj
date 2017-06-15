@@ -14,6 +14,13 @@
 		EF675B501EF27DFB003E1A1E /* Re4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B4F1EF27DFB003E1A1E /* Re4.swift */; };
 		EF675B521EF27F39003E1A1E /* Re5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B511EF27F39003E1A1E /* Re5.swift */; };
 		EF675B541EF28008003E1A1E /* Re6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B531EF28008003E1A1E /* Re6.swift */; };
+		EF675B5E1EF29266003E1A1E /* bb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF675B5D1EF29266003E1A1E /* bb.jpg */; };
+		EF675B601EF29610003E1A1E /* In1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B5F1EF29610003E1A1E /* In1.swift */; };
+		EF675B621EF2961E003E1A1E /* In2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B611EF2961E003E1A1E /* In2.swift */; };
+		EF675B641EF29629003E1A1E /* In3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B631EF29629003E1A1E /* In3.swift */; };
+		EF675B661EF29636003E1A1E /* In4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B651EF29636003E1A1E /* In4.swift */; };
+		EF675B681EF29644003E1A1E /* In5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B671EF29644003E1A1E /* In5.swift */; };
+		EF675B6A1EF29657003E1A1E /* In6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B691EF29657003E1A1E /* In6.swift */; };
 		EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */; };
 		EFEBEAA11ECAE0020051B243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAA01ECAE0020051B243 /* ViewController.swift */; };
 		EFEBEAA41ECAE0030051B243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBEAA21ECAE0030051B243 /* Main.storyboard */; };
@@ -59,6 +66,13 @@
 		EF675B4F1EF27DFB003E1A1E /* Re4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Re4.swift; sourceTree = "<group>"; };
 		EF675B511EF27F39003E1A1E /* Re5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Re5.swift; sourceTree = "<group>"; };
 		EF675B531EF28008003E1A1E /* Re6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Re6.swift; sourceTree = "<group>"; };
+		EF675B5D1EF29266003E1A1E /* bb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bb.jpg; path = ../../../Downloads/bb.jpg; sourceTree = "<group>"; };
+		EF675B5F1EF29610003E1A1E /* In1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = In1.swift; sourceTree = "<group>"; };
+		EF675B611EF2961E003E1A1E /* In2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = In2.swift; sourceTree = "<group>"; };
+		EF675B631EF29629003E1A1E /* In3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = In3.swift; sourceTree = "<group>"; };
+		EF675B651EF29636003E1A1E /* In4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = In4.swift; sourceTree = "<group>"; };
+		EF675B671EF29644003E1A1E /* In5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = In5.swift; path = ../In5.swift; sourceTree = "<group>"; };
+		EF675B691EF29657003E1A1E /* In6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = In6.swift; sourceTree = "<group>"; };
 		EFEBEA9B1ECAE0020051B243 /* SushiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFEBEAA01ECAE0020051B243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +167,7 @@
 		EFEBEA9D1ECAE0020051B243 /* SushiApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF675B5D1EF29266003E1A1E /* bb.jpg */,
 				EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */,
 				EFEBEAA01ECAE0020051B243 /* ViewController.swift */,
 				EFEBEAA21ECAE0030051B243 /* Main.storyboard */,
@@ -167,6 +182,12 @@
 				EF675B4F1EF27DFB003E1A1E /* Re4.swift */,
 				EF675B511EF27F39003E1A1E /* Re5.swift */,
 				EF675B531EF28008003E1A1E /* Re6.swift */,
+				EF675B5F1EF29610003E1A1E /* In1.swift */,
+				EF675B611EF2961E003E1A1E /* In2.swift */,
+				EF675B631EF29629003E1A1E /* In3.swift */,
+				EF675B651EF29636003E1A1E /* In4.swift */,
+				EF675B671EF29644003E1A1E /* In5.swift */,
+				EF675B691EF29657003E1A1E /* In6.swift */,
 			);
 			path = SushiApp;
 			sourceTree = "<group>";
@@ -310,6 +331,7 @@
 			files = (
 				EFEBEAA91ECAE0030051B243 /* LaunchScreen.storyboard in Resources */,
 				EFEBEAA61ECAE0030051B243 /* Assets.xcassets in Resources */,
+				EF675B5E1EF29266003E1A1E /* bb.jpg in Resources */,
 				EFEBEAA41ECAE0030051B243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,14 +496,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEBEAA11ECAE0020051B243 /* ViewController.swift in Sources */,
+				EF675B6A1EF29657003E1A1E /* In6.swift in Sources */,
+				EF675B641EF29629003E1A1E /* In3.swift in Sources */,
 				EFEBEACD1ECAE59D0051B243 /* VCPrincipal.swift in Sources */,
 				EF675B4E1EF27D45003E1A1E /* re3.swift in Sources */,
 				EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */,
+				EF675B661EF29636003E1A1E /* In4.swift in Sources */,
 				EFEBEAD11ECB015D0051B243 /* TVCMiCelda.swift in Sources */,
 				EF675B4A1EF2771F003E1A1E /* Re1.swift in Sources */,
 				EF675B4C1EF27BF9003E1A1E /* Re2.swift in Sources */,
 				EF675B501EF27DFB003E1A1E /* Re4.swift in Sources */,
 				EF675B521EF27F39003E1A1E /* Re5.swift in Sources */,
+				EF675B621EF2961E003E1A1E /* In2.swift in Sources */,
+				EF675B681EF29644003E1A1E /* In5.swift in Sources */,
+				EF675B601EF29610003E1A1E /* In1.swift in Sources */,
 				EF675B541EF28008003E1A1E /* Re6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  Re1.swift
+//  In4.swift
 //  SushiApp
 //
 //  Created by JUAN MARÍA JUSUE ROYAN on 15/6/17.
@@ -8,12 +8,10 @@
 
 import UIKit
 
-class Re1: UIViewController {
-    @IBOutlet var ScrollView: UIScrollView!
+class In4: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        ScrollView.contentSize.height = 3350
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bb.jpg")!)
 
         // Do any additional setup after loading the view.

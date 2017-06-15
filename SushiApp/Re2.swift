@@ -14,6 +14,7 @@ class Re2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ScrollView.contentSize.height = 2500
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bb.jpg")!)
 
         // Do any additional setup after loading the view.
     }

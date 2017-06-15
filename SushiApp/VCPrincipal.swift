@@ -12,6 +12,7 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
     @IBOutlet var TbMitb:UITableView?
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bb.jpg")!)
         
         // Do any additional setup after loading the view.
     }
