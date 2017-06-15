@@ -27,37 +27,63 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
         let cell:TVCMiCelda = tableView.dequeueReusableCell(withIdentifier: "micelda1") as! TVCMiCelda
         //cell.lblNombre?.text=""
         if(indexPath.row==0){
-            cell.btnNombre!.setTitle("Maki", for: .normal)
-            cell.btnNombre!.setImage(#imageLiteral(resourceName: "maki"), for: .normal)
+             //self.setTitle("Maki", for: .normal)
+            //cell.btnNombre!.setImage(#imageLiteral(resourceName: "maki"), for: .normal)
+            
             //cell.imagn?.image=UIImage(named:"Image.png")
         }
         if(indexPath.row==1){
-            cell.btnNombre?.setTitle("Uramaki", for: UIControlState.normal)
+            //cell.btnNombre?.setTitle("Uramaki", for: UIControlState.normal)
         
            // cell.imagn?.image=UIImage(named:"Image-1.png")
         }
         
         if(indexPath.row==2){
-            cell.btnNombre?.setTitle("Temaki", for: UIControlState.normal)
+            //cell.btnNombre?.setTitle("Temaki", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"descarga.png")
         }
         if(indexPath.row==3){
-            cell.btnNombre?.setTitle("Nigiri", for: UIControlState.normal)
+            //cell.btnNombre?.setTitle("Nigiri", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"c.png")
         }
         if(indexPath.row==4){
-            cell.btnNombre?.setTitle("Gunkan", for: UIControlState.normal)
+            //cell.btnNombre?.setTitle("Gunkan", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         if(indexPath.row==5){
-            cell.btnNombre?.setTitle("Inari", for: UIControlState.normal)
+            //cell.btnNombre?.setTitle("Inari", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
         }
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
+        if(indexPath.row==0){
+            //self.setTitle("Maki", for: .normal)
+            //cell.btnNombre!.setImage(#imageLiteral(resourceName: "maki"), for: .normal)
+            self.performSegue(withIdentifier: "makise", sender: self)
+            //cell.imagn?.image=UIImage(named:"Image.png")
+        }
+        if (indexPath.row == 1) {
+            self.performSegue(withIdentifier: "uramakise", sender: self)
+        }
+        if(indexPath.row==2){
+            self.performSegue(withIdentifier: "temakise", sender: self)
+            
+        }
+        if(indexPath.row==3){
+            self.performSegue(withIdentifier: "nigirise", sender: self)
+            
+        }
+        if(indexPath.row==4){
+            self.performSegue(withIdentifier: "gunkanse", sender: self)
+            
+        }
+        if(indexPath.row==5){
+            self.performSegue(withIdentifier: "inarise", sender: self)
+            
+        }
+        
     }
     
     
