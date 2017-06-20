@@ -1465,7 +1465,6 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="LoginButton" destination="of1-Lh-eIs" eventType="touchUpInside" id="Rbb-1z-M4d"/>
-                                    <segue destination="nhY-45-QpE" kind="show" identifier="tran1" id="uY3-eL-WA0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfx-sF-3la">
@@ -1507,6 +1506,7 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                         <outlet property="lblError" destination="hJe-uC-pZd" id="6Kq-ib-OQW"/>
                         <outlet property="nameTextField" destination="E34-57-eZE" id="YCS-Ky-HFb"/>
                         <outlet property="passTextField" destination="T29-DP-F8h" id="JS1-hd-Edv"/>
+                        <segue destination="nhY-45-QpE" kind="show" identifier="tran1" id="6eR-jQ-bEE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yq2-OB-RB7" sceneMemberID="firstResponder"/>
@@ -1668,14 +1668,14 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
         <image name="maki2" width="550" height="367"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fxc-f5-jBd"/>
-        <segue reference="uY3-eL-WA0"/>
-        <segue reference="Vjc-Zu-L1Q"/>
-        <segue reference="64X-yS-AnA"/>
         <segue reference="x3Z-8D-aol"/>
+        <segue reference="Vjc-Zu-L1Q"/>
+        <segue reference="6eR-jQ-bEE"/>
+        <segue reference="fxc-f5-jBd"/>
         <segue reference="GaC-Ys-rTw"/>
         <segue reference="axP-e5-u6l"/>
         <segue reference="jyn-2g-xBN"/>
+        <segue reference="64X-yS-AnA"/>
         <segue reference="g2g-5K-sIG"/>
     </inferredMetricsTieBreakers>
 </document>
