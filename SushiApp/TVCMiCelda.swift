@@ -11,6 +11,7 @@ import UIKit
 class TVCMiCelda: UITableViewCell {
 
     @IBOutlet var btnNombre:UIButton?
+    @IBOutlet var lblNombre:UILabel?
     
     override func awakeFromNib() {
         super.awakeFromNib()

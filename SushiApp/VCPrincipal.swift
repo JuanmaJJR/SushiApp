@@ -10,6 +10,8 @@ import UIKit
 
 class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
     @IBOutlet var TbMitb:UITableView?
+    @IBOutlet var lblNombre:UILabel?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bb.jpg")!)
@@ -32,28 +34,35 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
             //cell.btnNombre!.setImage(#imageLiteral(resourceName: "maki"), for: .normal)
             
             //cell.imagn?.image=UIImage(named:"Image.png")
+            
+            cell.lblNombre?.text="Maki"
         }
         if(indexPath.row==1){
             //cell.btnNombre?.setTitle("Uramaki", for: UIControlState.normal)
         
            // cell.imagn?.image=UIImage(named:"Image-1.png")
+            cell.lblNombre?.text="Uramaki"
         }
         
         if(indexPath.row==2){
             //cell.btnNombre?.setTitle("Temaki", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"descarga.png")
+            cell.lblNombre?.text="Temaki"
         }
         if(indexPath.row==3){
             //cell.btnNombre?.setTitle("Nigiri", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"c.png")
+            cell.lblNombre?.text="Nigiri"
         }
         if(indexPath.row==4){
             //cell.btnNombre?.setTitle("Gunkan", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
+            cell.lblNombre?.text="Gunkan"
         }
         if(indexPath.row==5){
             //cell.btnNombre?.setTitle("Inari", for: UIControlState.normal)
             //cell.imagn?.image=UIImage(named:"scala-logo.png")
+            cell.lblNombre?.text="Inari"
         }
         return cell
     }
@@ -62,6 +71,7 @@ class VCPrincipal: UIViewController,UITableViewDelegate,UITableViewDataSource {
         if(indexPath.row==0){
             //self.setTitle("Maki", for: .normal)
             //cell.btnNombre!.setImage(#imageLiteral(resourceName: "maki"), for: .normal)
+            
             self.performSegue(withIdentifier: "makise", sender: self)
             //cell.imagn?.image=UIImage(named:"Image.png")
         }

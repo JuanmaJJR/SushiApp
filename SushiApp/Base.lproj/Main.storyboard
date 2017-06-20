@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="of1-Lh-eIs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nhY-45-QpE">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -246,7 +246,7 @@ Sal</string>
                         <viewControllerLayoutGuide type="bottom" id="AUw-ee-LNn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ydn-ET-Fgz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="2050"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3BS-pF-UIq">
@@ -413,12 +413,18 @@ Sal</string>
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4AT-is-DUI">
-                                                    <rect key="frame" x="0.0" y="-22" width="375" height="114"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4If-pz-xvH">
+                                                    <rect key="frame" x="8" y="0.0" width="359" height="63"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
+                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="34"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblNombre" destination="4If-pz-xvH" id="27t-5U-saU"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -1493,9 +1499,9 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUSHI APP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6c-z4-a9t">
-                                <rect key="frame" x="63" y="91" width="242" height="51"/>
+                                <rect key="frame" x="51" y="72" width="272" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="49"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1570,6 +1576,13 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUSHI APP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqE-uK-rqJ">
+                                <rect key="frame" x="51" y="73" width="272" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="49"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1597,8 +1610,8 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CRA-ks-Lo9">
-                                <rect key="frame" x="16" y="456" width="343" height="123"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CRA-ks-Lo9">
+                                <rect key="frame" x="16" y="509" width="343" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="31"/>
                                 <state key="normal" title="RESTAURANTES DE SUSHI CERCA DE TI">
@@ -1608,8 +1621,12 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                                     <segue destination="km6-YA-GjB" kind="show" id="Tvf-To-fzL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gFE-ky-pQc">
-                                <rect key="frame" x="45" y="119" width="295" height="66"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="susherito" translatesAutoresizingMaskIntoConstraints="NO" id="avH-v4-qIO">
+                                <rect key="frame" x="16" y="184" width="343" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gFE-ky-pQc">
+                                <rect key="frame" x="16" y="66" width="343" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="31"/>
                                 <state key="normal" title="TIPOS DE SUSHI Y RECETAS">
@@ -1625,7 +1642,7 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pE5-ge-r2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="265" y="133"/>
+            <point key="canvasLocation" x="264.80000000000001" y="132.68365817091455"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="ftG-K2-XL4">
@@ -1666,16 +1683,17 @@ Sésamo blanco tostado 3 cdas. (16 PERSONAS).</string>
     </scenes>
     <resources>
         <image name="maki2" width="550" height="367"/>
+        <image name="susherito" width="500" height="385"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="x3Z-8D-aol"/>
+        <segue reference="64X-yS-AnA"/>
         <segue reference="Vjc-Zu-L1Q"/>
         <segue reference="6eR-jQ-bEE"/>
         <segue reference="fxc-f5-jBd"/>
+        <segue reference="x3Z-8D-aol"/>
+        <segue reference="Gfe-8B-lXw"/>
         <segue reference="GaC-Ys-rTw"/>
         <segue reference="axP-e5-u6l"/>
         <segue reference="jyn-2g-xBN"/>
-        <segue reference="64X-yS-AnA"/>
-        <segue reference="g2g-5K-sIG"/>
     </inferredMetricsTieBreakers>
 </document>
