@@ -15,15 +15,14 @@ class VCMapa: UIViewController, MKMapViewDelegate{
     @IBOutlet var miMapa:MKMapView?
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bb.jpg")!)
         // Do any additional setup after loading the view.
         
         
         miMapa?.showsUserLocation = true
         
-        let refHandle =
-            DataHolder.sharedInstance.firDataBaseRef.child("restaurantes").observe(DataEventType.value, with: { (snapshot) in
-                var arTemp=snapshot.value as? Array<AnyObject>
+        let refHandle = DataHolder.sharedInstance.firDataBaseRef.child("restaurantes").observe(DataEventType.value, with: { (snapshot) in
+                let arTemp=snapshot.value as? Array<AnyObject>
                 
                 //if(DataHolder.sharedInstance.arUsuarios==nil){
                 DataHolder.sharedInstance.arUsuarios=Array<restaurantes>()
@@ -36,7 +35,7 @@ class VCMapa: UIViewController, MKMapViewDelegate{
                     var coordTemp:CLLocationCoordinate2D = CLLocationCoordinate2D()
                     coordTemp.latitude = restaurantesi.fLat!
                     coordTemp.longitude = restaurantesi.fLon!
-                    self.agregarPin(coordenada: coordTemp, titulo: restaurantesi.sNombre!)
+                    self.agregarPin(coordenada: coordTemp, titulo: restaurantesi.sNombre!, valora: restaurantesi.sVa!)
                     
                 }
                 
@@ -49,10 +48,11 @@ class VCMapa: UIViewController, MKMapViewDelegate{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func agregarPin(coordenada:CLLocationCoordinate2D, titulo varTitulo:String){
+    func agregarPin(coordenada:CLLocationCoordinate2D, titulo varTitulo:String, valora varVa:String){
         let annotation:MKPointAnnotation = MKPointAnnotation()
         annotation.coordinate = coordenada
         annotation.title = varTitulo
+        annotation.subtitle = varVa;
         miMapa?.addAnnotation(annotation)
     }
     

@@ -28,6 +28,7 @@
 		EF675B741EF2A73E003E1A1E /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B731EF2A73E003E1A1E /* DataHolder.swift */; };
 		EF675B761EF2A865003E1A1E /* restaurantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF675B751EF2A865003E1A1E /* restaurantes.swift */; };
 		EF675B781EF2B358003E1A1E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF675B771EF2B358003E1A1E /* MapKit.framework */; };
+		EFA629141EF96E13006223E7 /* Menu principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA629131EF96E13006223E7 /* Menu principal.swift */; };
 		EFEBEA9F1ECAE0020051B243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */; };
 		EFEBEAA11ECAE0020051B243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAA01ECAE0020051B243 /* ViewController.swift */; };
 		EFEBEAA41ECAE0030051B243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBEAA21ECAE0030051B243 /* Main.storyboard */; };
@@ -87,6 +88,7 @@
 		EF675B731EF2A73E003E1A1E /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		EF675B751EF2A865003E1A1E /* restaurantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restaurantes.swift; sourceTree = "<group>"; };
 		EF675B771EF2B358003E1A1E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EFA629131EF96E13006223E7 /* Menu principal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Menu principal.swift"; sourceTree = "<group>"; };
 		EFEBEA9B1ECAE0020051B243 /* SushiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEBEA9E1ECAE0020051B243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFEBEAA01ECAE0020051B243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				EF675B711EF2A716003E1A1E /* VCMapa.swift */,
 				EF675B731EF2A73E003E1A1E /* DataHolder.swift */,
 				EF675B751EF2A865003E1A1E /* restaurantes.swift */,
+				EFA629131EF96E13006223E7 /* Menu principal.swift */,
 			);
 			path = SushiApp;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA629141EF96E13006223E7 /* Menu principal.swift in Sources */,
 				EFEBEAA11ECAE0020051B243 /* ViewController.swift in Sources */,
 				EF675B6A1EF29657003E1A1E /* In6.swift in Sources */,
 				EF675B641EF29629003E1A1E /* In3.swift in Sources */,

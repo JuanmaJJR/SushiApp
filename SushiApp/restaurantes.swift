@@ -9,7 +9,7 @@
 import UIKit
 
 class restaurantes: NSObject {
-    
+    var sVa:String?
     var sNombre:String?
     var sApellidos:String?
     var sRutaImagenP:String?
@@ -17,6 +17,8 @@ class restaurantes: NSObject {
     var fLat:Double?
     
     init(valores:[String:AnyObject]) {
+        sNombre=valores["Nombre"] as? String
+        sVa=valores["valoracion"] as? String
         fLon=valores ["lon"] as? Double
         fLat=valores ["lat"] as? Double
     }
